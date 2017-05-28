@@ -7,31 +7,38 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication5
-{
-
-
-    public partial class WebForm1
-    {
-
+namespace WebApplication5 {
+    
+    
+    public partial class Test1 {
+        
         /// <summary>
-        /// form1 control.
+        /// Label_UserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
+        protected global::System.Web.UI.WebControls.Label Label_UserName;
+        
         /// <summary>
-        /// hy control.
+        /// TextBox_UserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hy;
-
+        protected global::System.Web.UI.WebControls.TextBox TextBox_UserName;
+        
+        /// <summary>
+        /// CustomValidator_UserName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator CustomValidator_UserName;
+        
         /// <summary>
         /// Button_Save control.
         /// </summary>

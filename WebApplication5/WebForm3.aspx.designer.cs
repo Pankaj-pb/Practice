@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication5
-{
-
-
-    public partial class WebForm1
-    {
-
+namespace WebApplication5 {
+    
+    
+    public partial class WebForm3 {
+        
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -22,23 +20,14 @@ namespace WebApplication5
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
+        
         /// <summary>
-        /// hy control.
+        /// Test control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hy;
-
-        /// <summary>
-        /// Button_Save control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button_Save;
+        protected global::WebApplication5.Test1 Test;
     }
 }

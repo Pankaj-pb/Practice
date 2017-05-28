@@ -65,7 +65,7 @@ namespace WebApplication5
             FileStream fout = new FileStream("Employee.xml", FileMode.Open, FileAccess.Write, FileShare.None);
             ds.WriteObject(fout, cs);
 
-            FileStream fin = new FileStream("Employee.binary", FileMode.Open, FileAccess.Read, FileShare.None);
+            FileStream fin = new FileStream("Employee.xml", FileMode.Open, FileAccess.Read, FileShare.None);
             var css = (Customer)ds.ReadObject(fin);
 
 
@@ -116,7 +116,7 @@ namespace WebApplication5
             var s = x.AA();
             B y = new B();
             var sd = y.AA();
-            Test1.List<int> t = new Test1.List<int>();
+           // Test1.List<int> t = new Test1.List<int>();
             Customer c = new Customer();
             var st = c[130401];
             var kt = c["8054363607"];
